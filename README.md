@@ -50,7 +50,7 @@ A scatter plot was generated similar to the K-Means visualization, showing the 5
 
  - Divisive (top-down): Start with one large cluster and iteratively divide it into smaller ones.
 
-A dendrogram is used to visualize the hierarchical clustering process, where the distance between merged clusters is shown.
+- A dendrogram is used to visualize the hierarchical clustering process, where the distance between merged clusters is shown.
 ---
 ## 🤖 Technology:
  - `Python`: Programming language used for the project.
