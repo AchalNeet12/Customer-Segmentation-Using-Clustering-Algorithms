@@ -40,7 +40,7 @@ K-Means requires the number of clusters (K) to be specified beforehand, and the 
 - Hierarchical Clustering builds a hierarchy of clusters, starting from each data point as its own cluster and progressively merging the closest clusters. It does not require specifying the number of clusters 
   upfront. The main steps are:
 
-  - Agglomerative (bottom-up): Begin with individual data points and merge the closest pairs.
+    - Agglomerative (bottom-up): Begin with individual data points and merge the closest pairs.
 
 ![Agglomerative Clustering](https://github.com/user-attachments/assets/c52df549-1e1f-4f79-ae0a-4ff5ba878937)
 
@@ -48,7 +48,7 @@ A scatter plot was generated similar to the K-Means visualization, showing the 5
 
 ![image](https://github.com/user-attachments/assets/f42c9526-74e5-4e6a-afe1-9ccdce97684d)
 
- - Divisive (top-down): Start with one large cluster and iteratively divide it into smaller ones.
+   - Divisive (top-down): Start with one large cluster and iteratively divide it into smaller ones.
 
 - A dendrogram is used to visualize the hierarchical clustering process, where the distance between merged clusters is shown.
 ---
@@ -76,10 +76,10 @@ A scatter plot was generated similar to the K-Means visualization, showing the 5
    - We used Agglomerative Clustering with 5 clusters and visualized the clusters with a scatter plot.
 ---
 ## 📈 Results:
-  - K-Means: Segmented the customers into 5 distinct groups based on their income and spending behavior. Each cluster was represented by a different color in the scatter plot.
-  - Hierarchical Clustering: Provided a similar segmentation result, but the clusters might slightly differ in shape due to the algorithm's different approach.
+   - K-Means: Segmented the customers into 5 distinct groups based on their income and spending behavior. Each cluster was represented by a different color in the scatter plot.
+   - Hierarchical Clustering: Provided a similar segmentation result, but the clusters might slightly differ in shape due to the algorithm's different approach.
     
- Both algorithms were able to predict the same general cluster structure, but there were minor differences due to how they define clusters.
+- Both algorithms were able to predict the same general cluster structure, but there were minor differences due to how they define clusters.
 ---
 ## 📊 Conclusion:
  - Both K-Means and Hierarchical Clustering were effective for segmenting the customers based on their Annual Income and Spending Score. However, the algorithms produced slightly 
