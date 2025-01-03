@@ -21,4 +21,4 @@ For clustering purposes, we used only the Annual Income (k$) and Spending Score 
 - The Elbow Method is used to determine the optimal number of clusters in the K-Means clustering algorithm. The method involves plotting the Within-Cluster Sum of Squares (WCSS) against the number of clusters. 
   The point where the decrease in WCSS starts to slow down (forming an "elbow" shape) is considered the optimal number of clusters. This helps in selecting the number of clusters that balances cluster quality 
   and computational efficiency.
-  ![image](https://av-eks-blogoptimized.s3.amazonaws.com/83750elbow.png)
+  ![image](https://github.com/user-attachments/assets/15ef014b-cdda-4c2b-9bba-6f5e7c80fe37)
