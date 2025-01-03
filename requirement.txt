@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+streamlit
+base64
+from sklearn.cluster import KMeans
+from sklearn.cluster import AgglomerativeClustering
+import scipy.cluster.hierarchy as sch
+from sklearn.metrics import silhouette_score
