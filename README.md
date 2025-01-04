@@ -89,7 +89,7 @@ A scatter plot was generated similar to the K-Means visualization, showing the 5
  - The choice between these algorithms depends on the dataset and the specific problem requirements. If the number of clusters is known, K-Means is faster and more efficient, while 
    Hierarchical Clustering is better for exploring data and understanding hierarchical relationships.
 ---
-## 🌐 STREAMLIT FRONTEND **(You can access the Streamlit app)**
+## 🌐 STREAMLIT FRONTEND **(You can access the Streamlit app)**(https://customer-segmentation-using-clustering-algorithms-zuk9uppbfxxt.streamlit.app/)
 
 
 
